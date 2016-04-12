@@ -4,4 +4,4 @@ git config --global push.default simple
 git add .
 git commit -m $1
 git push
-strat http://moxinp2016.github.io
+start http://moxinp2016.github.io
