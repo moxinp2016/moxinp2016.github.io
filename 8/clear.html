@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8" />
+    <title>浮动清除实例</title>
+    <style>
+body {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .item {
+        /* height: 115px; */
+        width: 500px;
+        border: 5px #DDD solid;
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    .float_area {
+        border: 5px #ccc solid;
+        width: 100px;
+        float: left;
+        margin: 0 10px 10px 0;
+        background-color: rgba(0, 200, 0, 0.5);
+    }
+    
+    .normal_area {
+        border: 2px #ccc solid;
+        width: 210px;
+        background-color: rgba(200, 0, 0, 0.5);
+        height: 150px;
+        line-height: 150px;
+        clear: both;
+    }
+}
+.float_area {
+    height: 50px;
+    line-height: 50px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="item">
+        <div class="float_area">左浮动模块</div>
+        <div class="float_area">左浮动模块</div>
+        <div class="normal_area">希望按正常流显示的模块</div>
+    </div>
+</body>
+
+</html>
