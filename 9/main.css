@@ -180,3 +180,12 @@ body {
 .left img {
     text-align: center;
 }
+
+ .footr .line_dotted{
+    border-top: 1px solid #918f7a;
+    height: 0px
+}
+
+.footer .top-spacing{
+    margin-top: 15px;
+}
