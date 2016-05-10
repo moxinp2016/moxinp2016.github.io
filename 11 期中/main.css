@@ -238,8 +238,13 @@ div.news-list p.topic-nav {
     padding: 0 10px;
 }
 
+.aside h3 {
+    
+    margin-top: 8px;
+}
+
 .recommend {
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 
@@ -257,6 +262,7 @@ div.news-list p.topic-nav {
 
 .foot span {
     margin: 0 8px;
+    
 }
 
 .foot a {
