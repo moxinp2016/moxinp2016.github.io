@@ -9,7 +9,8 @@
 }
 
 body {
-    background-color: #AAAAAA;
+    background-image: url(img/bg2.jpg);
+    background-repeat: none;
 }
 
 
@@ -17,7 +18,7 @@ body {
 
 .wrap {
     width: 970px;
-    background-color: #FCFBF0;
+    background-color: #FAE0E1;
     margin: 0 auto;
     padding: 0 20px;
 }
