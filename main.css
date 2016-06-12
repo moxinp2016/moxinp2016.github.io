@@ -9,16 +9,18 @@
 }
 
 body {
-    background-image: url(img/bg2.jpg);
-    background-repeat: none;
+    /*background-image: url(img/bg2.jpg);*/
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: #0D3B6C;
 }
 
 
 /*网站标记*/
 
 .wrap {
-    width: 970px;
-    background-color: #FAE0E1;
+    width: 1200px;
+    background-color:#FFC000;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -29,9 +31,9 @@ body {
 }
 
 .navwrap {
-    width: 350px;
+    width: 400px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .nav .navwrap div {
@@ -59,7 +61,7 @@ body {
 .nav ul li {
     display: block;
     float: left;
-    width: 96px;
+    width: 99px;
     background-color: #9D1518;
     font-family: 黑体;
     font-size: 16px;

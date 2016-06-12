@@ -5,8 +5,50 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>图片翻转</title>
 	<link rel="stylesheet" href="">
+	 <style>
+    .box {
+        background: #BE3640;
+        transition: background .1s linear, border-radius 1s ease-in 1s;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .box:hover {
+        background: #9045AE;
+        border-radius: 50%;
+    }
+    
+    hr {
+        border: 2px solid red;
+        width: 100px;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 1s;
+    }
+    
+    hr:hover {
+        width: 200px;
+    }
+    
+    .img {
+        width: 140px;
+        height: 70px;
+        overflow: none;
+    }
+    
+    img {
+        transition: all 1s ease-in-out;
+    }
+    
+    img:hover {
+        transform: scale(1.5);
+    }
+    </style>
 </head>
 <body>
-	
+	<div class="box">box 1</div>
+    <div class="img"><img src="1.jpg" alt=""></div>
+    <!-- <hr> -->
 </body>
 </html>
