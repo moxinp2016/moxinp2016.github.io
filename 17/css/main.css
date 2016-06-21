@@ -1,0 +1,252 @@
+/*全局性导航条样式*/
+
+.site-nav {
+    height: 43px;
+    border-top: 3px #123586 solid;
+    border-bottom: 1px #eee solid;
+}
+
+.head-nav {
+    width: 1000px;
+    height: 43px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    height: 43px;
+    background-image: url(../images/logo.png);
+    background-position: 0 -130px;
+    float: left;
+}
+
+.head-nav-list {
+    width: 500px;
+    height: 43px;
+    text-align: right;
+    float: right;
+    line-height: 43px;
+}
+
+.head-nav-list span {
+    margin: 0 10px;
+}
+
+
+/*主体部分样式*/
+
+.title-img {
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1030px;
+    }
+}
+
+.abs {
+    margin: 10px 0;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+}
+
+
+/*幻灯片样式*/
+
+.slidesjs-container {
+    margin-bottom: 10px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+    background-image: url(../images/btns-next-prev.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 12px;
+    height: 18px;
+    overflow: hidden;
+    text-indent: -9999px;
+    float: left;
+    margin-right: 5px;
+}
+
+a.slidesjs-next {
+    margin-right: 10px;
+    background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+    background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+    background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+    background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+    width: 15px;
+    background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+    background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+    width: 18px;
+    background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+    background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+    margin: 7px 0 0;
+    float: right;
+    list-style: none;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(../images/pagination.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+    color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+    color: #9e2020
+}
+
+.navbar {
+    overflow: hidden
+}
+
+
+/*新闻列表样式*/
+
+h2 {
+    font-size: 20px;
+    border-left: 3px #123586 solid;
+    padding-left: 10px;
+    margin: 30px 0;
+}
+
+.media {
+    margin: 15px 0;
+}
+
+.media h4 {
+    margin: 10px 0;
+}
+
+.media-object {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.news-meta {
+    margin: 12px 0;
+}
+
+
+/*百度新闻样式*/
+
+div[style="margin-bottom:10px"] {
+    display: none;
+}
+
+.baidu {
+    line-height: 2.5;
+}
+
+
+/*微博样式*/
+
+.weibo-widget ul,
+.weibo-widget ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.weibo-list .weibo-list-portrait {
+    display: none !important;
+}
+
+.weibo-list .weibo-list-preview,
+.weibo-list .weibo-list-meta .weibo-list-source,
+.weibo-list .weibo-list-detail,
+.weibo-list .weibo-list-comments,
+.weibo-list .weibo-list-retweet,
+.weibo-list .weibo-list-meta .weibo-list-action-fav,
+.weibo-list .weibo-list-line {
+    display: none;
+}
+
+.weibo-list .weibo-list-meta .weibo-list-meta-l {
+    float: left;
+    display: inline;
+}
+
+.weibo-list .weibo-list-meta .weibo-list-meta-r {
+    float: right;
+    display: inline;
+}
+
+.weibo-clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.weibo-list .weibo-list-item {
+    border-bottom: 1px dashed #CCC;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+
+/*页脚样式*/
+
+.footer {
+    border-top: 1px #E5E5E5 solid;
+    margin: 25px 0;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+}
